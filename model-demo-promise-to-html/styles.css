@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: 'Palatino';
+  text-align: center;
+  background: #BE90D4;
+  padding: 10px;
+}
+
+.container{
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 0;
+  font-family: 'Helvetica Neue';
+}
+
+#container > * {
+  font-size: medium;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 30%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  display: inline-block;
+  padding: 10px;
+
+}
+
+.user-card > h3,
+.user-card > p {
+  margin: 0;
+}
+
+h3 {
+  padding-top: 10px;
+  padding-bottom: 3px;
+  text-transform: capitalize;
+
+}
+
+p {
+  padding-bottom: 6px;
+}
+
+p.location{
+  color: #888;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+
+p.email{
+  text-align: right;
+}
+
+
+img{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
